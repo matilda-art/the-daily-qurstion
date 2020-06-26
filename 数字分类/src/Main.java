@@ -91,7 +91,8 @@ public class Main {
         if (A4 == 0){
             System.out.print("N"+" ");
         }else {
-            DecimalFormat df = new DecimalFormat("0.0");
+            //DecimalFormat类，帮你用最快的速度将数字格式化为需要的样子
+            DecimalFormat df = new DecimalFormat("0.0");//取一位整数和一位小数
             System.out.print(df.format(A4/countA4)+" ");
         }
 
