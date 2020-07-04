@@ -14,6 +14,7 @@ import java.util.Scanner;
  * @author: matilda
  * @create: 2020-07-03 12:02
  **/
+
 public class Main {
     //每个人都拿不到自己名字的可能
     public static float count(int n){
