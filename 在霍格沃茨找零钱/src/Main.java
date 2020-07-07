@@ -36,8 +36,8 @@ public class Main {
         int b2 = Integer.parseInt(arr2[1]);
         int c2 = Integer.parseInt(arr2[2]);
 
-        int num2 = (a2*17+b2)*29+c2;
-        int num1 = (a1*17+b1)*29+c1;
+        int num2 = (a2 * 17 + b2) * 29 + c2;
+        int num1 = (a1 * 17 + b1) * 29 + c1;
 
         String res = null;
         if(num2 < num1){
